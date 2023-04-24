@@ -29,6 +29,10 @@ const router = createBrowserRouter([
     path: "/proyecto/:id",
     element: <ProyectoDetalles />,
   },
+  {
+    path: "*", // handle all other routes with App component
+    element: <App />,
+  },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
