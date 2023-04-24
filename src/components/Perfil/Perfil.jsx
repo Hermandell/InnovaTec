@@ -2,7 +2,6 @@ import NavBar from "../../utils/Navbar/Navbar";
 
 const data = JSON.parse(localStorage.getItem("datos_generales"));
 const data2 = JSON.parse(localStorage.getItem("datos_escuela"));
-console.log(data.imageprofile);
 const Perfil = () => {
   return (
     <>
