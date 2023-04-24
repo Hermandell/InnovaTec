@@ -31,7 +31,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*", // handle all other routes with App component
-    element: <App />,
+    element: <Login />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
