@@ -88,7 +88,7 @@ const Proyectos = () => {
                   <img
                     src={
                       item.attributes.imagen.data
-                        ? "https://innovatecbackend.onrender.com" +
+                        ? "" +
                           item.attributes.imagen.data.attributes.url
                         : "./src//assets//noImage.png"
                     }
